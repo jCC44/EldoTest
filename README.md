@@ -14,7 +14,7 @@ Si les amis s'arrêtent dans un rayon de 2 nodes il est facilement possible d'aj
 
 Voici la requète: 
 
-## SQL to be formated
+``` sql
 SELECT *
 FROM artisan
          LEFT JOIN (
@@ -27,6 +27,6 @@ FROM artisan
     FROM user_review
 ) AS user_review ON user_review.artisan_id = artisan.id
 WHERE row_num <= 3;
-## SQL to be ignored
+```
 
 c'est la première fois que j'utilise ROW_NUMBER. J'ai trouvé la solution sur ce site: https://www.mysqltutorial.org/mysql-window-functions/mysql-row_number-function/
