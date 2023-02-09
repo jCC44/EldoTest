@@ -5,9 +5,10 @@ Les relations exemples utilisées sont comme ci dessous:
 ####
 ![Image text](/relation.png)
 
-J'ai fais le choix d'une reconnaissance des prénoms via les majuscules. Il y avait aussi la possibilité de faire du parsing avec les syntaxes de phrases.
-Dans votre énoncé, il est indiqué "Axiome: `l'ami de mon ami est mon ami`", je suis donc parti sur le principe que les amis des amis de mes amis sont mes amis... J'ai donc fait un parcours en largeur avec une récursion. 
-Si les amis s'arrêtent dans un rayon de 2 nodes il est facilement possible d'ajouter une limite dans la récursion.
+J'ai fait le choix de reconnaître les prénoms à travers les majuscules. 
+Il y avait également la possibilité de faire du parsing avec les syntaxes de phrases. 
+Dans votre énoncé, il est indiqué "Axiome: l'ami de mon ami est mon ami", je suis donc parti sur le principe que les amis des amis de mes amis sont aussi mes amis... 
+J'ai donc effectué un parcours en largeur avec une récursion. Si les amis s'arrêtent dans un rayon de 2 nœuds, il est facilement possible d'ajouter une limite à la récursion.
 
 
 
