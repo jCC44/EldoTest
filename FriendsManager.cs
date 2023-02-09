@@ -67,7 +67,6 @@ namespace TestEldo
         /// <param name="friendshipList">Liste des affinités en textuelle</param>
         private void sortFriendship(List<string> friendshipList)
         {
-            //méthode avec du regex sur les majuscules
             foreach (var friendship in friendshipList)
             {
                 //on ajoute la majuscule systématiquement au début de chaque phrase 
@@ -139,7 +138,7 @@ namespace TestEldo
             }
             else
             {
-                Console.WriteLine("Pour poser une question, merci d'utiliser la syntaxe: Est-ce que [Prénom] est mon amie ? Un seul prénom à la fois.");
+                Console.WriteLine("Pour poser une question, merci d'utiliser la syntaxe: Est-ce que [Prénom] est mon ami(e) ? Un seul prénom à la fois.");
             }
         }
 
